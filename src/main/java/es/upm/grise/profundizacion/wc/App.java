@@ -23,7 +23,7 @@ public class App {
 		// Check the commands later (see switch below)
 		// At this point, we open the text file
 		BufferedReader br = null;
-		String fileName = args[1];
+		String fileName = args[0];
 
 		try{
 			br = new BufferedReader(new FileReader(fileName));
